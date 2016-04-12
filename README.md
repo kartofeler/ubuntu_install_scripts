@@ -9,4 +9,5 @@ For now repository has script to install:
   * Nginx
   * MariaDB
   * PHP 5.5.9
+  * Composer
   * Redis
