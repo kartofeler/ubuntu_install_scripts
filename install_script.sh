@@ -14,10 +14,6 @@ apt-get install -y php5-fpm php5-mysql php5-curl php5-cli
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
-curl -sSL https://get.docker.com/ | sh
-https://packages.gitlab.com/install/repositories/runner/gitlab-ci-multi-runner/script.deb.sh | sudo bash
-apt-get install gitlab-ci-multi-runner -y
-
 apt-get update
 apt-get install -y build-essential tcl8.5 
 
