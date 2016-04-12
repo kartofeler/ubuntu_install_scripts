@@ -11,3 +11,5 @@ For now repository has script to install:
   * PHP 5.5.9
   * Composer
   * Redis
+2. gitlab_ci.sh
+  * Gitlab-CI-Multi-Runner
