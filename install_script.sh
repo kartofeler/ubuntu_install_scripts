@@ -9,7 +9,7 @@ apt-get install mariadb-server -y
 mysql_install_db
 mysql_secure_installation
 
-apt-get install -y php5-fpm php5-mysql php5-curl php5-cli
+apt-get install -y php5-fpm php5-mysql php5-curl php5-cli php5-sqlite sqlite3 libsqlite3-dev
 
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
